@@ -528,26 +528,17 @@ textarea{
 /*.........................................footer....................................... */
 .footer{
     display: flex;
-    justify-content: center;
-    padding-top: 50px;
+    justify-content:space-around;
     background-color: aqua;
-    /* width: 100%; */
-    /* flex-wrap: wrap; */
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
 }
 .footer div li{
     padding: 0px;
-    /* margin: 20px 0px; */
-    margin:  0px 50px;
-}
-.box{
-    display: flex;
-    justify-content:center;
-    margin:60px;
-    /* padding: 0px 100px; */
-}
-.box div{
-    margin: 0px 0px;
-    width: 300px;
+    margin: 20px 0px;
 }
 .social li{    
     display: flex;
@@ -700,7 +691,6 @@ transition: 1.0s;
 }
 .highlight div {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -708,7 +698,6 @@ transition: 1.0s;
 }
 
 .highlight div span {
-    /* width: 1%; */
     margin-top: 8px;
     font-size: 15px;
     font-weight: 450;
@@ -718,21 +707,25 @@ transition: 1.0s;
 }
 .footer{
     display: flex;
-    justify-content: space-around;
-    
-    padding-top: 50px;
+    justify-content:space-around;
+    background-color: aqua;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box div{
+    width: 230px;
 }
 .footer div li{
     padding: 0px;
     margin: 20px 0px;
 }
-.box{
-    width: 100%;
-    justify-content: space-between;
-}
-.social{
-    padding: 0px 0px;
-}
+
 .social li{    
     display: flex;
     align-items: center;
@@ -741,9 +734,10 @@ transition: 1.0s;
 font-size: 25px;
 background-color: red;
 border-radius: 100%;
-padding: 10px;
+padding: 5px;
 margin-right: 5px;
 }
+
 .hero-container{
     /* display: flex; */
     /* justify-content: center; */
@@ -869,12 +863,12 @@ li {
 }
 /* ..........................end............................................................................................................. */
 @media(min-width:460px){
-    .footer{
+    /* .footer{
     display: flex;
     justify-content: space-around;
-    /* flex-direction: column; */
+    flex-direction: column;
     padding-top: 50px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .footer div li{
     padding: 0px;
@@ -900,5 +894,5 @@ background-color: red;
 border-radius: 100%;
 padding: 10px;
 margin-right: 5px;
-}
+} */
 }
