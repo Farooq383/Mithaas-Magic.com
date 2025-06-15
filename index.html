@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <!-- -------------------------------navigation bar -------------------------------->
-        <nav>
+        <!-- <nav>
             <div class="logo"><img src="./images/logo1.png"></div>
 
             <ul class="navbar">
@@ -26,7 +27,27 @@
                 <button class="btn1">ORDER NOW</button>
                 <img src="./images/cart-regular-24.png" alt="">
             </div>
-        </nav>
+        </nav> -->
+        <nav>
+        <ul class="nav-bar">
+            <div class="logo">
+                <img src="./images/logo1.png">
+            </div>
+            <input type='checkbox' id='check' />
+            <span class="menu2">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about1">ABOUT</a></li>
+                <li><a href="#contactus1">CONTACT US</a></li>
+                <li><a href="#Menu1">MENU</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            <div class="navbutton" id="contactus1">
+                <button class="btn1">ORDER NOW</button>
+                <img src="./images/cart-regular-24.png" alt="">
+            </div>
+        </ul>
+    </nav>
         <!---------------------------------------------- main-setion  ---------------------------------------------------->
         <section class="hero">
             <div class="hero-container">
@@ -65,7 +86,7 @@
                         <div class="row">
                             <div>
                                 <div class="slide-item">
-                                    <div >
+                                    <div>
                                     <img src="./images/badam.png">
                                     </div>
                                     <div class="under-input">
@@ -89,7 +110,7 @@
                                     <span>DOUBLE KA MEETHA</span>
                                     <!-- <p>double ka meetha</p> -->
                                     <p>
-                                        Smooth, diamond-shaped cashew treats that melt in your mouth. Crafted with premium quality cashews and just the right touch of sweetness. A royal favorite for all occasions.
+                                      Made from fried bread slices soaked in saffron milk and layered with ghee and dry fruits, Double Ka Meetha is a royal treat from the kitchens of Hyderabad — rich, flavorful, and nostalgic.
                                     </p>
                                     <div class="navbutton1">
                                         <button>BUY NOW</button>
@@ -106,7 +127,7 @@
                                     <span>KUNAFA</span>
                                     <!-- <p>double ka meetha</p> -->
                                     <p>
-                                        Smooth, diamond-shaped cashew treats that melt in your mouth. Crafted with premium quality cashews and just the right touch of sweetness. A royal favorite for all occasions.
+                                       Our Kunafa blends golden shredded pastry with a soft, creamy filling, all soaked in a lightly floral sugar syrup and sprinkled with pistachios. It's a crunchy, gooey dessert that offers a luxurious experience.
                                     </p>
                                     <div class="navbutton1">
                                         <button>BUY NOW</button>
@@ -123,9 +144,8 @@
                                     </div>
                                     <div class="under-input">
                                     <span>GULAB JAMUN</span>
-                                    <!-- <p>double ka meetha</p> -->
                                     <p>
-                                        Smooth, diamond-shaped cashew treats that melt in your mouth. Crafted with premium quality cashews and just the right touch of sweetness. A royal favorite for all occasions.
+                                       Golden-brown milk-solid balls fried to perfection and soaked in rose-kissed sugar syrup. Whether served warm or chilled, our Gulab Jamuns are a heartwarming indulgence that never goes out of style.
                                     </p>
                                     <div class="navbutton1">
                                         <button>BUY NOW</button>
@@ -142,7 +162,9 @@
                                     <span>RASGULLA</span>
                                     <!-- <p>double ka meetha</p> -->
                                     <p>
-                                        Smooth, diamond-shaped cashew treats that melt in your mouth. Crafted with premium quality cashews and just the right touch of sweetness. A royal favorite for all occasions.
+                                      Soft, white balls made from fresh cottage cheese, cooked and soaked in light sugar syrup. Our Rasgullas are airy, juicy, and full of charm — a refreshing sweet perfect for any time.
+
+
                                     </p>
                                     <div class="navbutton1">
                                         <button>BUY NOW</button>
@@ -159,7 +181,7 @@
                                     <span>RASMALAI</span>
                                     <!-- <p>double ka meetha</p> -->
                                     <p>
-                                        Smooth, diamond-shaped cashew treats that melt in your mouth. Crafted with premium quality cashews and just the right touch of sweetness. A royal favorite for all occasions.
+                                      Rasmalai is a Bengali delight with fluffy paneer discs soaked in thickened, saffron-flavored milk. Every bite is a burst of creaminess, lightly sweet and aromatic — a perfect cooling dessert.
                                     </p>
                                     <div class="navbutton1">
                                         <button>BUY NOW</button>
@@ -221,14 +243,14 @@
                    
                 </div>
                 <div class="img-bar">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/jalebi.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    JALEBI
                     </h4>
                     <span>
-                        ₹ 200/-
+                        ₹ 100/-
                     </span>
                     <select name="" id="">
                         <option value="200g">200g</option>
@@ -241,14 +263,14 @@
                    
                 </div>
                 <div class="img-bar">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/cham cham.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    CHAM CHAM
                     </h4>
                     <span>
-                        ₹ 200/-
+                        ₹ 100/-
                     </span>
                     <select name="" id="">
                         <option value="200g">200g</option>
@@ -261,14 +283,14 @@
                    
                 </div>
                 <div class="img-bar">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/kheer.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    KHEER
                     </h4>
                     <span>
-                        ₹ 200/-
+                        ₹ 150/-
                     </span>
                     <select name="" id="">
                         <option value="200g">200g</option>
@@ -281,11 +303,11 @@
                 
                 </div>
                 <div class="img-bar property" >
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/mysore pak.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    MYSORE PAK
                     </h4>
                     <span>
                         ₹ 200/-
@@ -301,11 +323,11 @@
                    
                 </div>
                 <div class="img-bar property">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/shrikhand.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                     SHRIKHAND
                     </h4>
                     <span>
                         ₹ 200/-
@@ -321,14 +343,14 @@
                    
                 </div>
                 <div class="img-bar property">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/carrot halwa___.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    CARROT HALWA
                     </h4>
                     <span>
-                        ₹ 200/-
+                        ₹ 150/-
                     </span>
                     <select name="" id="">
                         <option value="200g">200g</option>
@@ -340,11 +362,31 @@
                 </div>
                 </div>
                 <div class="img-bar property">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/motichoor__.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    MOTICHOOR LADDOO
+                    </h4>
+                    <span>
+                        ₹ 199/-
+                    </span>
+                    <select name="" id="">
+                        <option value="200g">200g</option>
+                        <option value="200g">400g</option>
+                        <option value="200g">500g</option>
+                        <option value="200g">1000g</option>
+                    </select>
+                    <button>BUY NOW</button>
+                    </div>
+                   
+                </div>
+                <div class="img-bar property">
+                    <img src="images/SoanPapdi___.png" alt="">
+                    
+                    <div class="column">
+                        <h4>
+                    SOAN PAPDI
                     </h4>
                     <span>
                         ₹ 200/-
@@ -360,34 +402,14 @@
                    
                 </div>
                 <div class="img-bar property">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
+                    <img src="images/peda---.png" alt="">
                     
                     <div class="column">
                         <h4>
-                    DRY FRUIT BARFI
+                    PEDA
                     </h4>
                     <span>
-                        ₹ 200/-
-                    </span>
-                    <select name="" id="">
-                        <option value="200g">200g</option>
-                        <option value="200g">400g</option>
-                        <option value="200g">500g</option>
-                        <option value="200g">1000g</option>
-                    </select>
-                    <button>BUY NOW</button>
-                    </div>
-                   
-                </div>
-                <div class="img-bar property">
-                    <img src="images/_Pngtree_dry_fruits_barfi_sweet_14964753-removebg-preview-removebg-preview.png" alt="">
-                    
-                    <div class="column">
-                        <h4>
-                    DRY FRUIT BARFI
-                    </h4>
-                    <span>
-                        ₹ 200/-
+                        ₹ 140/-
                     </span>
                     <select name="" id="">
                         <option value="200g">200g</option>
@@ -407,16 +429,16 @@
                     <div class="contact-container">
                         <div class="item">
                             <div>
-                                NAME <br> <input type="NAME" name="NAME" placeholder="ENTER YOUR NAME">
+                                NAME <br> <input type="NAME" name="NAME" placeholder="ENTER YOUR NAME"  class="center-input">
                             </div>
                     <div>
-                        E-MAIL <br> <input type="email" name="email" placeholder="ENTER YOUR E-MAIL">
+                        E-MAIL <br> <input type="email" name="email" placeholder="ENTER YOUR E-MAIL" class="center-input">
                     </div>
                     <div>
-                        MOBILE <br> <input type="phone" name="number" placeholder="ENTER YOUR MOBILE NUMBER" id="">
+                        MOBILE <br> <input type="phone" name="number" placeholder="ENTER YOUR MOBILE NUMBER"  class="center-input">
                     </div>
                     <div>
-                        MESSAGE <br><textarea name="" placeholder="ENTER YOUR MESSAGE" rows="5" cols="30" ></textarea>
+                        MESSAGE <br><textarea name="" placeholder="ENTER YOUR MESSAGE" rows="5" cols="30"  class="center-input" ></textarea>
                     </div>
                     <div class="top">
                         <button>SUBMIT</button>
@@ -451,7 +473,7 @@
                     <h2>REACH US</h2>
                     <li>E-mail: <span>support@mithaasmagic.com</span></li>
                     <li>Call: <span>99999 12345</span></li>
-                    <li>Customer Care Timings: <span>10:00AM To 06:00pm</span></li>
+                    <li>Timings: <span>10:00AM To 06:00pm</span></li>
                 </div>
                 <div class="social">
                     <h2>Follow Us</h2>
